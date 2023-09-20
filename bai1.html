@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1</title>
+    <script>
+        console.log("\tKiểm tra Lab 1");
+        console.log("\tBài 1");
+        // Sử dụng hàm prompt để nhập 2 số từ bàn phím và ép kiểu thành số
+        let A = Number(prompt("Nhập số A:"));
+        let B = Number(prompt("Nhập số B:"));
+        let C = Number(prompt("Nhập số C:"));
+
+        console.log("Số A: ", A);
+        console.log("Số B: ", B);
+        console.log("Số C: ", C);
+
+        // Tính trung bình cộng và in ra kết quả
+        let trungBinh = (A + B + C) / 3;
+        console.log("Trung bình cộng của 3 số: ", trungBinh);
+
+        // if (A > B & A > C){
+        //     console.log("Số A là số lớn nhất: " , A);
+        // } else if (B > A & B > C) {
+        //     console.log("Số B là số lớn nhất: " , B);
+        // } else if (C > A & C > B) {
+        //     console.log("Số C là số lớn nhất: " , C);
+        // } else if (A == B){
+        //     console.log("Hai số A và B bằng nhau: ", A);
+        // } else if (B == C){
+        //     console.log("Hai số B và C bằng nhau: ", B);
+        // } else if (C == A){
+        //     console.log("Hai số A và C bằng nhau: ", A);
+        // } else {
+        //     console.log("Số A, B và C bằng nhau");
+        // }
+
+        let numberMax = Math.max(A, B, C);
+        console.log("Gía trị lớn nhất trong 3 số: ", numberMax);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
